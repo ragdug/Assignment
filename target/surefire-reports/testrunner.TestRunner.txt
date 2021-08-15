@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.542 sec <<< FAILURE!
+Then FreeCRM site is open(| naveenk | test@123 |)  Time elapsed: 0.015 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[CRMPRO]> but was:<[#1 Free CRM software in the cloud for sales and service]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.LoginUsingExample.freecrm_site_is_open(LoginUsingExample.java:43)
+	at ?.Then FreeCRM site is open(Features/loginusingexample.feature:6)
+
+| naveenk | test@123 |  Time elapsed: 0.017 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[CRMPRO]> but was:<[#1 Free CRM software in the cloud for sales and service]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.LoginUsingExample.freecrm_site_is_open(LoginUsingExample.java:43)
+	at ?.Then FreeCRM site is open(Features/loginusingexample.feature:6)
+
